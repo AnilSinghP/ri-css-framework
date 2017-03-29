@@ -24,101 +24,193 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-/* Ri Framework Styles */
 
- a {
- 	text-decoration:none;
- }
+/*===================================*/
+/* ====== Ri Framework Styles ====== */
+/*===================================*/
+
+a {
+	text-decoration:none;
+}
 
 .inner-wrap-1600 {
- 	max-width: 1600px;
- 	margin-left: auto;
- 	margin-right: auto;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .inner-wrap {
- 	max-width: 980px;
- 	margin-left: auto;
- 	margin-right: auto;
- }
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
- .no-padding {
- 	padding: 0;
- }
+.no-padding {
+	padding: 0;
+}
 
- .no-padding-top {
- 	padding-top: 0;
- }
+.no-padding-top {
+	padding-top: 0;
+}
 
- .no-padding-right {
- 	padding-right: 0;
- }
+.no-padding-right {
+	padding-right: 0;
+}
 
- .no-padding-left {
- 	padding-left: 0;
- }
+.no-padding-left {
+	padding-left: 0;
+}
 
-  .no-padding-bottom {
- 	padding-bottom: 0;
- }
+.no-padding-bottom {
+	padding-bottom: 0;
+}
 
- .no-margin {
- 	margin: 0;
- }
+.no-margin {
+	margin: 0;
+}
 
- .no-margin-top {
- 	margin-top: 0;
- }
+.no-margin-top {
+	margin-top: 0;
+}
 
- .no-margin-right {
- 	margin-right: 0;
- }
+.no-margin-right {
+	margin-right: 0;
+}
 
- .no-margin-bottom {
- 	margin-bottom: 0;
- }
+.no-margin-bottom {
+	margin-bottom: 0;
+}
 
- .no-margin-left {
- 	margin-left: 0;
- }
+.no-margin-left {
+	margin-left: 0;
+}
 
- .text-right {
- 	text-align: right;
- }
+.text-right {
+	text-align: right;
+}
 
- .text-left {
- 	text-align: left;
- }
+.text-left {
+	text-align: left;
+}
 
- .text-center {
- 	text-align: center;
- }
+.text-center {
+	text-align: center;
+}
 
- .ri-block {
- 	display: block;
- }
+.ri-block {
+	display: block;
+}
+
+
+/*==============================*/
+/* ====== Ri Form Styles ====== */
+/*==============================*/
+
+.ri-form {
+	color: #333;
+}
+
+.ri-form label {
+	display: block;
+	font-size: 16px;
+	color: #888888;
+	font-weight: 300;
+}
+
+.ri-form input[type="text"],
+.ri-form input[type="password"] {
+	font-weight: 300;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	outline: 0;
+	border-bottom: 3px solid #e5e5e5;
+	margin-bottom: 30px;
+}
+
+.ri-form textarea {
+	display: block;
+	font-size: 14px;
+	width: 100%;
+	height: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	outline: 0;
+	border-bottom: 3px solid #e5e5e5;
+	margin-bottom: 30px;
+}
+
+/* Icon Delete */
+
+.ri-delete {
+	color: #999;
+	padding-left: 20px;
+	height: 13px;
+	padding-top: 0;
+	padding-bottom: 0;
+	background: #fff url('../img/icons/cancel.png')no-repeat left top;
+	background-size: 13px;
+	transition: all 0.3s ease;
+	line-height: 13px;
+	font-size: 13px;
+	opacity: 0.6;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.ri-delete:hover {
+	color: #ec3027;
+	background-position: left bottom;
+	opacity: 1;
+}
+
+/* Icon Edit*/
+
+.ri-edit {
+	display: inline-block;
+	background: url('../img/icons/edit.png')no-repeat;
+	background-size: 16px;
+	background-position: left top;
+	line-height: 16px;
+	padding-left: 23px;
+	transition: all 0.3s ease;
+	margin-right: 10px;
+}
+
+.ri-edit:hover {
+	background-position: left bottom;
+}
