@@ -23,7 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -49,25 +51,72 @@ table {
 
 /* Ri Framework Styles */
 
+ a {
+ 	text-decoration:none;
+ }
+
+.inner-wrap-1600 {
+ 	max-width: 1600px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.inner-wrap {
+ 	max-width: 980px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
 
  .no-padding {
  	padding: 0;
  }
 
- .no-padding-left {
- 	padding-left: 0;
+ .no-padding-top {
+ 	padding-top: 0;
  }
 
  .no-padding-right {
  	padding-right: 0;
  }
 
+ .no-padding-left {
+ 	padding-left: 0;
+ }
+
   .no-padding-bottom {
  	padding-bottom: 0;
  }
 
+ .no-margin {
+ 	margin: 0;
+ }
+
  .no-margin-top {
  	margin-top: 0;
+ }
+
+ .no-margin-right {
+ 	margin-right: 0;
+ }
+
+ .no-margin-bottom {
+ 	margin-bottom: 0;
+ }
+
+ .no-margin-left {
+ 	margin-left: 0;
+ }
+
+ .text-right {
+ 	text-align: right;
+ }
+
+ .text-left {
+ 	text-align: left;
+ }
+
+ .text-center {
+ 	text-align: center;
  }
 
  .ri-block {
