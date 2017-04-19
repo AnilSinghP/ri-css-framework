@@ -59,6 +59,14 @@ table {
 /*===================================*/
 /* ====== Ri Framework Styles ====== */
 /*===================================*/
+ ul {
+ 	padding-left: 0;
+ 	margin-bottom: 0;
+ } 
+
+ ul {
+ 	list-style: none;
+ }
 
 a {
 	text-decoration:none;
@@ -128,8 +136,34 @@ a {
 	text-align: center;
 }
 
+.overflow-hidden {
+   overflow: hidden;
+ }
+
 .ri-block {
 	display: block;
+}
+
+
+ /*=====================================
+ =            Button Styles            =
+ =====================================*/
+
+.ri-btn-outline {
+  background: white;
+  color: #f69709;
+  border: 1px solid #f69709;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ri-btn-outline:hover {
+  background-color: #f69709;
+  text-decoration: none;
+  color:white;
 }
 
 
@@ -172,6 +206,13 @@ a {
 	outline: 0;
 	border-bottom: 3px solid #e5e5e5;
 	margin-bottom: 30px;
+}
+
+.ri-form input[type="file"] {
+  display: block;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
 /* Icon Delete */
