@@ -223,7 +223,7 @@ a {
 	height: 13px;
 	padding-top: 0;
 	padding-bottom: 0;
-	background: #fff url('../img/icons/cancel.png')no-repeat left top;
+	background: #fff url('icons/cancel.png')no-repeat left top;
 	background-size: 13px;
 	transition: all 0.3s ease;
 	line-height: 13px;
@@ -242,8 +242,9 @@ a {
 /* Icon Edit*/
 
 .ri-edit {
+	color: #999;
 	display: inline-block;
-	background: url('../img/icons/edit.png')no-repeat;
+	background: url('icons/edit.png')no-repeat;
 	background-size: 16px;
 	background-position: left top;
 	line-height: 16px;
@@ -253,5 +254,6 @@ a {
 }
 
 .ri-edit:hover {
+	color: #67a72d;
 	background-position: left bottom;
 }
